@@ -1,0 +1,20 @@
+#include <iostream> 
+#include <cstdlib> 
+
+using namespace std; 
+
+int main() {
+    double v1, v2, v3, v4, v5, average = 0; 
+    
+    cout << "Please enter five values: " << endl; 
+    cin >> v1 >> v2 >> v3 >> v4 >> v5; 
+    
+    average = (v1 + v2 + v3 + v4 + v5) / 5.0; 
+    int result = 0; 
+    result = abs(average); 
+    cout << "The absolute average of the five values is: " << endl; 
+    cout << result << endl;  
+    
+    return 0; 
+    } 
+    
