@@ -1,0 +1,49 @@
+/* 
+    This program finds and displays all prime
+    numbers between 1 and 100. 
+*/
+
+#include <iostream> 
+#include <cmath> 
+
+using namespace std; 
+
+int main(void) {
+    int i, j; 
+    bool isprime; 
+    
+    for (i = 1; i < 100; i++) {
+        isprime = true; 
+    for (j = 2; j <= i/2; j++)
+        if ((i%j) == 0) isprime = false; 
+    if(isprime)
+        cout << i << " is prime." << endl; 
+        }
+        return 0; 
+        }
+          /*  
+    for (int num = 0; num < 100; num++) {
+        if ((num % 2) == 1) {
+            int num_half = (num / 2); 
+            for (int i = 2; i <= num_half; i++) {
+                if ((num % i) != 0) {
+                    } 
+                }
+            cout << num << endl; 
+            }
+        }
+        return 0; 
+    }*/
+        /*
+        if (num % 2 == 1) {
+            int num_half = num / 2; 
+            for (int i = 2; i <= num_half; i++) {
+                if ((num % i) != 0) {
+                    cout << num << endl;
+                    }
+                 
+                }
+         }
+         }
+         return 0; 
+    }*/
