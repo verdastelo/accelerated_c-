@@ -1,0 +1,21 @@
+// Magic number program. 
+
+#include <iostream> 
+#include <cstdlib> 
+
+using namespace std; 
+
+int main(void) {
+    int magic = 0; 
+    int guess = 0; 
+    
+    magic = rand(); 
+    
+    cout << "Enter the guess: \n"; 
+    cin >> guess; 
+    
+    if (guess == magic) {
+        cout << " *** Right *** " << endl; 
+        }
+    return 0; 
+    }
