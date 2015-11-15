@@ -16,9 +16,15 @@ int main(void) {
     
     if (guess == magic) {
         cout << " *** Right *** " << endl; 
+        cout << magic << " is the magic number." << endl; 
         }
     else {
         cout << "Sorry, you are wrong." << endl; 
+        if (guess > magic) {
+            cout << "Your guess is too high." << endl; 
+            }
+        else 
+            cout << "Your guess is too low." << endl; 
         }
     return 0; 
     }
