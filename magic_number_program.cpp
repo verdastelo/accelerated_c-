@@ -17,5 +17,8 @@ int main(void) {
     if (guess == magic) {
         cout << " *** Right *** " << endl; 
         }
+    else {
+        cout << "Sorry, you are wrong." << endl; 
+        }
     return 0; 
     }
