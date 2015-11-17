@@ -1,0 +1,22 @@
+#include <iostream> 
+
+using namespace std; 
+
+int main(void) {
+    
+    for (int i = 0; i < 5; i++) {
+        switch (i) {
+            case 0: cout << " Less than 1\n."; 
+            case 1: cout << "Less than 2.\n";
+            case 2: cout << "Less than 3.\n";
+            case 3: cout << "Less than 4.\n";
+            case 4: cout << "Less than 5.\n";
+            
+            }
+         cout << '\n' << endl; 
+         
+         }
+         
+         return 0; 
+         }
+        
