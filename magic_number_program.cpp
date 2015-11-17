@@ -11,6 +11,7 @@ int main(void) {
     
     magic = rand(); 
     
+    do {
     cout << "Enter the guess: \n"; 
     cin >> guess; 
     
@@ -26,5 +27,6 @@ int main(void) {
         else 
             cout << "Your guess is too low." << endl; 
         }
+     } while (guess != magic); 
     return 0; 
     }
