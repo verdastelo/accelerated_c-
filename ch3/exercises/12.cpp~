@@ -1,0 +1,14 @@
+/*
+    What is C++'s unconditional jump statement.
+    */
+    
+// goto
+
+#include <iostream> 
+
+int main() {
+    for (char i = 'A'; i < 'z'; i++) {
+        std::cout << (int)i << " = " << i << std::endl; 
+        }
+    return 0; 
+    }
