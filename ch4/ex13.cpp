@@ -1,0 +1,17 @@
+/*
+    This program shows how not to assign pointers. 
+*/
+
+#include <iostream> 
+
+int main() {
+    int x = 123; 
+    int y = 0; 
+    
+    int *p = &x; 
+    
+    y = *p; 
+    std::cout << y << std::endl; 
+    
+    return 0; 
+}
