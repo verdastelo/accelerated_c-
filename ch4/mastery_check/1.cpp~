@@ -1,0 +1,14 @@
+/*
+    Declare an array that is 31 elements long. 
+*/
+
+#include <iostream> 
+
+int main() 
+{
+    short int hightemps[32]; 
+    if (hightemps[31]) {
+        std::cout << true << std::endl;
+        }
+    return 0; 
+}
