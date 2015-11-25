@@ -1,0 +1,25 @@
+/*
+    This program demonstrations a Quicksort algorithm.
+*/
+
+#include <iostream> 
+#include <cstring> 
+
+void quicksort (char *items, int len); 
+
+void qs (char *items, int left, int right); 
+
+int main() 
+{
+    char str[] = "jfmckldoelazlkper"; 
+    
+    std::cout << "Original order: " << str << "\n"; 
+    
+    quicksort (str, strlen(str)); 
+    
+    std::cout << "Sorted order: " << str << "\n"; 
+    
+    return 0; 
+}
+
+

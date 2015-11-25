@@ -1,0 +1,44 @@
+/*
+    This program demonstrates recursion.
+*/
+
+#include <iostream> 
+
+int factr(int n); 
+int fact(int n); 
+
+int main() 
+{
+    std::cout << "4 factorial is: " << factr(4); 
+    std::cout << '\n'; 
+    
+    std::cout << "4 factorial is: " << fact(4); 
+    std::cout << '\n'; 
+    
+    return 0; 
+}
+
+int factr(int n)
+{
+    int answer = 0; 
+    
+    if (n == 1) {
+        return(1); 
+    }
+    
+    else 
+       std::cout << answer = factr(n-1) * n << std::endl; 
+        
+    return (answer); 
+    
+}
+
+int fact(int n) 
+{
+    int answer = 1; 
+    for (int t = 1; t <= n; t++) {
+        answer *= t; 
+     }
+     
+     return (answer); 
+}
