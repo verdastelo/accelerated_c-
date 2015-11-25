@@ -1,0 +1,7 @@
+/*
+    Give one benefit of global variables. Give one disadvantage. 
+*/ 
+
+Global variables maintain their values throughout the program. 
+
+
