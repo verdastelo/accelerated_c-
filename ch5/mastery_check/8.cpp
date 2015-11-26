@@ -3,10 +3,14 @@
 
 #include <iostream> 
 
-int main(char* argv[])
+int main(int argc, char* argv[])
 {
-    while(argv) {
-        std::cout << "Good!" ; 
+    for (int i = 0; i < argc; i++) {
+        std::cout << argv[i] << '\n'; 
+        char name[] = argv[i]; 
+        std::cout << name << std::endl; 
         }
-    return 0;
+        
+        
+    return 0; 
 }

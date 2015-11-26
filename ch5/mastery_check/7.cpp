@@ -11,11 +11,9 @@
 
 #include <iostream> 
 
-int i = 0; 
-
-int byThrees()
+int byThrees(int i)
 {
-    for (i; i < 1000; i += 3) {
+    for (int i = 0; i < 30; i += 3) {
         std::cout << i << ", " ; 
     }
     return 0; 
@@ -23,13 +21,13 @@ int byThrees()
 
 int reset()
 {
-    i = 0; 
-    byThrees(); 
+    byThrees(0); 
 }
 
 int main()
 {
-    byThrees(); 
+    byThrees(0); 
+    std::cout << '\n'; 
     reset();
     std::cout << '\n'; 
     return 0; 

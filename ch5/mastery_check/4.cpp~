@@ -8,27 +8,21 @@
 #include <cstring> 
 #include <cctype> 
 
-int mystrlen(char* sentence[]) 
+int mystrlen(char sentence[])
 {
     int count = 0; 
-    
-    for (int i = 0; *sentence; i++) {
-        count++; 
+    for (int i = 0; sentence[i]; i++) {
+        count++;
      }
-     
-    std::cout << count << std::endl; 
     
     return count;
 }
 
-int main()
+int main() 
 {
-    char* name[80];
-    
-    std::cout << "Write your first name: "; 
-    std::cin >> name; 
-    
-    mystrlen(*name); 
-    
-    return 0;
+    char sen[] = "Карлсон - это маленький мальчик.";
+    int length = mystrlen(sen); 
+    std::cout << "The string's length is: " 
+              << length << std::endl; 
+    return 0; 
 }
