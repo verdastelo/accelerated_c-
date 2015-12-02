@@ -8,9 +8,10 @@
 // negate() returns the negation of the value pointed to by its
 // parameter. 
 
-int negate (const int *v)
+int negate (const int &v)
 {
-    return -*v;
+    int value = -*v; 
+    return value; 
 }
 
 int main()

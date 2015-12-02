@@ -10,14 +10,15 @@
 
 int negate (const int *v)
 {
-    return -*v;
+    int value = -*v; 
+    return value; 
 }
 
 int main()
 {
     int result; 
     int val = 10; 
-    result = negate(val); 
+    result = negate(&val); 
     std::cout << val << " negated is " << result; 
     std::cout << '\n';
     return 0;
