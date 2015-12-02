@@ -3,7 +3,7 @@
 
 void round (double i)
 {
-    int (double i); 
+    int i; 
 }
 
 int main()
