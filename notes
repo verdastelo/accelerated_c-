@@ -23,3 +23,14 @@ value action
 manipulator
 scope 
 
+Chapter 1
+
+variable
+objects
+definition
+local variables destroy themselves as soon as the computer reaches the }
+interface
+definition and initalization
+null OR empty strings
+buffer and flush
+
