@@ -1,0 +1,12 @@
+/*
+    Is the following program valid? 
+*/
+
+#include <iostream> 
+#include <string> 
+
+int main()
+{
+    { const std::string s = "a string"; 
+      std::cout << s << std::endl; }
+      

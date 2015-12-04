@@ -1,0 +1,17 @@
+/*
+    Find out if the following program is valid. 
+    If it is not valid, change it to make it run. 
+*/
+
+#include <iostream> 
+#include <string> 
+
+int main()
+{
+    { std::string s = "a string";
+    std::string x = s + ", really"; 
+    std::cout << s << std::endl; 
+    std::cout << x << std::endl;
+    }
+    return 0;
+}
