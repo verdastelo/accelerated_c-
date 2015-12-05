@@ -15,13 +15,5 @@ int main()
     
     // We have to rewrite this part...
     
-    // The number of blanks surrounding the greeting. 
-    const int pad = 1; 
-    
-    // Total number of rows to write. 
-    const int rows = pad * 2 + 3; 
-    
-    
-    
     return 0;
 }
